@@ -1,8 +1,8 @@
 const router = require('express').Router();
 
-import {
+const {
   renderIndex
-} from '../controllers/index.controllers';
+} = require('../controllers/index.controllers');
 
 router.get('/', renderIndex);
 

@@ -3,6 +3,8 @@ const helmet = require('helmet');
 const cors = require('cors');
 const morgan = require('morgan');
 
+const indexRoutes = require('./routes/index.routes.js');
+
 // Initializations
 const app = express();
 
@@ -15,6 +17,7 @@ app.use(cors());
 app.use(morgan('dev'));
 
 // Routes
+app.use(indexRoutes);
 
 // Intentional error
 app.use('/error-msg', (req, res) => {
