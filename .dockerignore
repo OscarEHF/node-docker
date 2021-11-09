@@ -1,0 +1,8 @@
+# Git tracking folder
+.git/
+
+# Node
+node_modules/
+npm-debug.log
+
+LICENSE

@@ -1,0 +1,27 @@
+{
+  "name": "node-docker",
+  "version": "0.0.1",
+  "description": "Node.js application in Docker Container",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "docker",
+    "docker-compose"
+  ],
+  "author": "Oscar Hernandez <os.hf024@gmail.com>",
+  "license": "MIT",
+  "repository": "git+https://github.com/OscarEHF/node-docker.git",
+  "homepage": "https://github.com/OscarEHF/node-docker#readme",
+  "bugs": "https://github.com/OscarEHF/node-docker/issues",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "morgan": "^1.10.0"
+  }
+}
